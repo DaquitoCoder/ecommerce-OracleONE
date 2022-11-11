@@ -1,0 +1,65 @@
+.imagePromotion {
+  background: url('../img/f1-75-banner.jpg') no-repeat center center/cover;
+  height: 180px;
+}
+
+.imagePromotion__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+.imagePromotion__text__title {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.imagePromotion__text__subtitle {
+  padding-bottom: 0.8rem;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.imagePromotion__text__btn {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 0.92;
+  margin-bottom: 1rem;
+}
+
+.imagePromotion__text__btn:hover {
+  opacity: 1;
+}
+
+/* media querys */
+
+@media screen and (min-width: 525px) {
+
+  .imagePromotion {
+    height: 352px;
+  }
+
+  .imagePromotion__text__title{
+    font-size: 1.5rem;
+  }
+
+  .imagePromotion__text__subtitle{
+    font-size: 1.2rem;
+  }
+
+  .imagePromotion__text__btn{
+    font-size: 1rem;
+  }
+
+}

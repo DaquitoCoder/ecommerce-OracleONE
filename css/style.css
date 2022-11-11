@@ -1,0 +1,16 @@
+@import url('./header.css');
+@import url('./imagePromotion.css');
+@import url('./categories.css');
+
+:root {
+  --red: #e10600;
+  --red2: #FF1800;
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #38383f;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
