@@ -57,9 +57,9 @@
   width: calc(100% - 1rem);
 }
 
-.info__form form input[type='submit'] {
+.info__form form button {
   width: 100%;
-  background-color: var(--red2);
+  background-color: var(--red);
   color: var(--white);
   padding: 0.5rem 1rem;
   border: none;
