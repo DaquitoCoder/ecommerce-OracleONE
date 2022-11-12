@@ -1,10 +1,11 @@
-@import url('./header.css');
-@import url('./imagePromotion.css');
-@import url('./categories.css');
+@import url('./index/header.css');
+@import url('./index/imagePromotion.css');
+@import url('./index/categories.css');
+@import url('./index/info.css');
 
 :root {
   --red: #e10600;
-  --red2: #FF1800;
+  --red2: #ff1800;
   --black: #000000;
   --white: #ffffff;
   --grey: #38383f;
@@ -14,3 +15,9 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 
+footer {
+  padding: 1rem 0;
+  background-color: var(--white);
+  text-align: center;
+  color: var(--black);
+}

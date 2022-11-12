@@ -1,81 +1,360 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>F1Souvenirs | Inicio</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-  <div class="container">
-    <header>
-      <div class="header__logo"><span class="header__logo__span">F1</span>Souvenirs</div>
-      <div class="header__search">
-        <input type="text" placeholder="¿Qué estás buscando?" class="header__search__input"/>
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </div>
-      <div class="header__login"><a href="/login.html" class="header__btn__login">Login</a></div>
-    </header>
-    <section class="imagePromotion">
-      <div class="imagePromotion__text">
-        <h1 class="imagePromotion__text__title">Special GP Brazil 2022</h1>
-        <p class="imagePromotion__text__subtitle">Descuentos especiales en gorras y camisas</p>
-        <a href="#" class="imagePromotion__text__btn">Ver productos</a> 
-      </div>
-    </section>
-    <section class="categories">
-      <div class="category">
-        <div class="category__title">Gorras</div>
-        <div class="category__products">
-          <div class="card">
-            <div class="card__image"><img src="/img/mercedes-cap-usa-2022.webp" alt="Mercedes Cap USA 2022"></div>
-            <div class="card__title">Mercedes Cap<br/>USA 2022</div>
-            <div class="card__price">$60.00</div>
-            <a href="" class="card__seeMore">Ver más</a>
-          </div>
-          <div class="card">
-            <div class="card__image"><img src="/img/ferrari-cap-charles-leclerc.jpg" alt="Ferrari Cap 2022 Charles Leclerc"></div>
-            <div class="card__title">Ferrari Cap<br/>Charles Leclerc</div>
-            <div class="card__price">$60.00</div>
-            <a href="" class="card__seeMore">Ver más</a>
-          </div>
-          <div class="card">
-            <div class="card__image"><img src="/img/mclaren-cap-lando-norris-2022.webp" alt="Mclaren Cap 2022 Lando Norris"></div>
-            <div class="card__title">McLaren Cap<br/>Lando Norris</div>
-            <div class="card__price">$60.00</div>
-            <a href="" class="card__seeMore">Ver más</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1Souvenirs | Inicio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header__logo">
+          <a href="/index.html"
+            ><span class="header__logo__span">F1</span>Souvenirs</a
+          >
+        </div>
+        <div class="header__search">
+          <input
+            type="text"
+            placeholder="¿Qué estás buscando?"
+            class="header__search__input"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header__login">
+          <a href="/login.html" class="header__btn__login">Login</a>
+        </div>
+      </header>
+      <section class="imagePromotion">
+        <div class="imagePromotion__text">
+          <h1 class="imagePromotion__text__title">Special GP Brazil 2022</h1>
+          <p class="imagePromotion__text__subtitle">
+            Descuentos especiales en gorras y camisas
+          </p>
+          <a href="#" class="imagePromotion__text__btn">Ver productos</a>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="category">
+          <div class="category__title">Gorras</div>
+          <div class="category__products">
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/mercedes-cap-usa-2022.webp"
+                  alt="Mercedes Cap USA 2022"
+                />
+              </div>
+              <div class="card__title">Mercedes Cap<br />USA 2022</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/ferrari-cap-charles-leclerc.jpg"
+                  alt="Ferrari Cap 2022 Charles Leclerc"
+                />
+              </div>
+              <div class="card__title">Ferrari Cap<br />Charles Leclerc</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/mclaren-cap-lando-norris-2022.webp"
+                  alt="Mclaren Cap 2022 Lando Norris"
+                />
+              </div>
+              <div class="card__title">McLaren Cap<br />Lando Norris</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/bwt-alpine-f1-team-2022.webp"
+                  alt="Alpine F1 - Fernando Alonso Cap"
+                />
+              </div>
+              <div class="card__title">Alpine F1 Cap<br />Fernando Alonso</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/mercedes-cap-usa-2022.webp"
+                  alt="Mercedes Cap USA 2022"
+                />
+              </div>
+              <div class="card__title">Mercedes Cap<br />USA 2022</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/ferrari-cap-charles-leclerc.jpg"
+                  alt="Ferrari Cap 2022 Charles Leclerc"
+                />
+              </div>
+              <div class="card__title">Ferrari Cap<br />Charles Leclerc</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/mclaren-cap-lando-norris-2022.webp"
+                  alt="Mclaren Cap 2022 Lando Norris"
+                />
+              </div>
+              <div class="card__title">McLaren Cap<br />Lando Norris</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/caps/bwt-alpine-f1-team-2022.webp"
+                  alt="Alpine F1 - Fernando Alonso Cap"
+                />
+              </div>
+              <div class="card__title">Alpine F1 Cap<br />Fernando Alonso</div>
+              <div class="card__price">$60.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="category">
-        <div class="category__title">Monoplazas 1/18</div>
-        <div class="category__products">
-          <div class="card">
-            <div class="card__title"></div>
-            <div class="card__image"></div>
-            <div class="card__price"></div>
-            <a href="" class="card__seeMore">Ver más</a>
+        <div class="category">
+          <div class="category__title">Monoplazas 1/18</div>
+          <div class="category__products">
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/Alfa-Romeo-C42-24.webp"
+                  alt="Alfa-Romeo-C42-24"
+                />
+              </div>
+              <div class="card__title">Alfa Romeo C42<br />Guanyu Zhou</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/F1-75-CarlosSainz.webp"
+                  alt="F1-75-CarlosSainz"
+                />
+              </div>
+              <div class="card__title">F1-75<br />Carlos Sainz</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/F1-75-CarlosSainz.webp"
+                  alt="F1-75-CarlosSainz"
+                />
+              </div>
+              <div class="card__title">F1-75<br />Charles Leclerc</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/RB18-MaxVerstappen.webp"
+                  alt="RB18-MaxVerstappen"
+                />
+              </div>
+              <div class="card__title">RB-18<br />Max Verstappen</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/Alfa-Romeo-C42-24.webp"
+                  alt="Alfa-Romeo-C42-24"
+                />
+              </div>
+              <div class="card__title">Alfa Romeo C42<br />Guanyu Zhou</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/F1-75-CarlosSainz.webp"
+                  alt="F1-75-CarlosSainz"
+                />
+              </div>
+              <div class="card__title">F1-75<br />Carlos Sainz</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/F1-75-CarlosSainz.webp"
+                  alt="F1-75-CarlosSainz"
+                />
+              </div>
+              <div class="card__title">F1-75<br />Charles Leclerc</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="/img/cars/RB18-MaxVerstappen.webp"
+                  alt="RB18-MaxVerstappen"
+                />
+              </div>
+              <div class="card__title">RB-18<br />Max Verstappen</div>
+              <div class="card__price">$59.99</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="category">
-        <div class="category__title">Cuadros</div>
-        <div class="category__products">
-          <div class="card">
-            <div class="card__title"></div>
-            <div class="card__image"></div>
-            <div class="card__price"></div>
-            <a href="" class="card__seeMore">Ver más</a>
+        <div class="category">
+          <div class="category__title">Cuadros</div>
+          <div class="category__products">
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="./img/cuadros/gilles-villeneuve.jpg"
+                  alt="gilles-villeneuve"
+                />
+              </div>
+              <div class="card__title">Circuito Gilles Villeneuve</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img src="./img/cuadros/interlagos.webp" alt="interlagos" />
+              </div>
+              <div class="card__title">Autódromo Interlagos</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img src="./img/cuadros/nurburgring.webp" alt="nurburgring" />
+              </div>
+              <div class="card__title">Circuito de Nurburgring</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="./img/cuadros/spa-francorchamps.webp"
+                  alt="spa-francorchamps"
+                />
+              </div>
+              <div class="card__title">Circuito de Spa Francorchamps</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="./img/cuadros/gilles-villeneuve.jpg"
+                  alt="gilles-villeneuve"
+                />
+              </div>
+              <div class="card__title">Circuito Gilles Villeneuve</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img src="./img/cuadros/interlagos.webp" alt="interlagos" />
+              </div>
+              <div class="card__title">Autódromo Interlagos</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img src="./img/cuadros/nurburgring.webp" alt="nurburgring" />
+              </div>
+              <div class="card__title">Circuito de Nurburgring</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
+            <div class="card">
+              <div class="card__image">
+                <img
+                  src="./img/cuadros/spa-francorchamps.webp"
+                  alt="spa-francorchamps"
+                />
+              </div>
+              <div class="card__title">Circuito de Spa Francorchamps</div>
+              <div class="card__price">$40.00</div>
+              <a href="" class="card__seeMore">Ver más</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-</body>
+      </section>
+      <section class="info">
+        <div class="info__logo">
+          <span class="info__logo__span">F1</span>Souvenirs
+        </div>
+        <div class="info__list">
+          <ul>
+            <li>Quienes somos</li>
+            <li>Política de privacidad</li>
+            <li>Programa de fidelidad</li>
+            <li>Nuestras Tiendas</li>
+            <li>Quiero ser franquiciado</li>
+            <li>Anuncia aquí</li>
+          </ul>
+        </div>
+        <div class="info__form">
+          <div class="info__form__title">Hable con nosotros</div>
+          <form>
+            <label for="name">Nombre</label><br />
+            <input type="text" name="name" id="name" /><br />
+            <label for="email">Email</label><br />
+            <input type="email" name="email" id="email" /><br />
+            <label for="message">Mensaje</label><br />
+            <textarea name="message" id="message" cols="30" rows="5"></textarea
+            ><br />
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>
+      <footer>
+        Creado por
+        <a href="https://daquitocoder.github.io/portfolio-oracleONE/"
+          >Alejandro León</a
+        >
+        <br />
+        &copy; 2022 - Oracle ONE
+      </footer>
+    </div>
+  </body>
 </html>

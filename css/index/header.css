@@ -34,14 +34,12 @@ header {
 
 .header__search i {
   color: var(--black);
-  padding-right: .8rem;
+  padding-right: 0.8rem;
 }
 
-
 .header__btn__login {
-  background-color: var(--grey);
   color: var(--white);
-  border: none;
+  border: 2px solid var(--grey);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -52,6 +50,7 @@ header {
 
 .header__btn__login:hover {
   opacity: 1;
+  background-color: var(--grey);
 }
 
 /* media querys */
@@ -59,5 +58,11 @@ header {
 @media screen and (max-width: 526px) {
   .header__search {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__search__input {
+    width: 300px;
   }
 }
