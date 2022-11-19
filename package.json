@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-oracleone",
+  "version": "1.0.0",
+  "description": "F1Souvenirs e-commerce crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaquitoCoder/ecommerce-OracleONE.git"
+  },
+  "author": "DaquitoCoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaquitoCoder/ecommerce-OracleONE/issues"
+  },
+  "homepage": "https://github.com/DaquitoCoder/ecommerce-OracleONE#readme"
+}

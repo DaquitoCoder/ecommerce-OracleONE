@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>F1Souvenirs | Menú de Administración</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <!-- Font -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap"
-    rel="stylesheet"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1Souvenirs | Menú de Administración</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
       <div class="header__logo">
         <a href="/index.html"
           ><span class="header__logo__span">F1</span>Souvenirs</a
@@ -37,6 +37,15 @@
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
     </header>
+    <section class="categories">
+      <div class="category">
+        <div class="category__title">
+          <h2 class="category__title__text">Productos</h2>
+          <a>Editar <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="category__products" data-products></div>
+      </div>
+    </section>
     <section class="info">
       <div class="info__logo">
         <span class="info__logo__span">F1</span>Souvenirs
@@ -54,9 +63,20 @@
       <div class="info__form">
         <div class="info__form__title">Hable con nosotros</div>
         <form>
-          <input type="text" name="name" id="name" placeholder="Nombre"/><br />
-          <input type="email" name="emailClient" id="emailClient" placeholder="Correo electrónico"/><br />
-          <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea
+          <input type="text" name="name" id="name" placeholder="Nombre" /><br />
+          <input
+            type="email"
+            name="emailClient"
+            id="emailClient"
+            placeholder="Correo electrónico"
+          /><br />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="5"
+            placeholder="Mensaje"
+          ></textarea
           ><br />
           <button type="submit">Enviar</button>
         </form>
@@ -70,5 +90,6 @@
       <br />
       &copy; 2022 - Oracle ONE
     </footer>
-</body>
+  </body>
+  <script type="module" src="./js/adminMenu.js"></script>
 </html>

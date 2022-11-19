@@ -1,0 +1,117 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Gorras",
+      "nameId": "caps"
+    },
+    {
+      "id": 2,
+      "name": "Monoplazas 1/18",
+      "nameId": "cars"
+    },
+    {
+      "id": 3,
+      "name": "Circuitos",
+      "nameId": "circuits"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mercedes Cap USA 2022",
+      "price": 60.00,
+      "image": "./img/caps/mercedes-cap-usa-2022.webp",
+      "alt": "Mercedes Cap USA 2022",
+      "category": "caps"
+    },
+    {
+      "id": 2,
+      "name": "Ferrari Cap Charles Leclerc",
+      "price": 60.00,
+      "image": "./img/caps/ferrari-cap-charles-leclerc.jpg",
+      "alt": "Ferrari Cap Charles Leclerc",
+      "category": "caps"
+    },
+    {
+      "id": 3,
+      "name": "McLaren Cap Lando Norris",
+      "price": 60.00,
+      "image": "./img/caps/mclaren-cap-lando-norris-2022.webp",
+      "alt": "McLaren Cap Lando Norris",
+      "category": "caps"
+    },
+    {
+      "id": 4,
+      "name": "Alpine F1 Cap Fernando Alonso",
+      "price": 60.00,
+      "image": "./img/caps/bwt-alpine-f1-team-2022.webp",
+      "alt": "Alpine F1 Cap Fernando Alonso",
+      "category": "caps"
+    },
+    {
+      "id": 5,
+      "name": "Alfa Romeo C42 Guanyu Zhou",
+      "price": 60.00,
+      "image": "./img/cars/Alfa-Romeo-C42-24.webp",
+      "alt": "Alfa Romeo C42 Guanyu Zhou",
+      "category": "cars"
+    },
+    {
+      "id": 6,
+      "name": "F1-75 Carlos Sainz",
+      "price": 60.00,
+      "image": "./img/cars/F1-75-CarlosSainz.webp",
+      "alt": "F1-75 Carlos Sainz",
+      "category": "cars"
+    },
+    {
+      "id": 7,
+      "name": "F1-75 Charles Leclerc",
+      "price": 60.00,
+      "image": "./img/cars/F1-75-CharlesLeclerc.webp",
+      "alt": "F1-75 Charles Leclerc",
+      "category": "cars"
+    },
+    {
+      "id": 8,
+      "name": "RB-18 Max Verstappen",
+      "price": 60.00,
+      "image": "./img/cars/RB18-MaxVerstappen.webp",
+      "alt": "RB-18 Max Verstappen",
+      "category": "cars"
+    },
+    {
+      "id": 9,
+      "name": "Circuito Gilles Villeneuve",
+      "price": 40.00,
+      "image": "./img/cuadros/gilles-villeneuve.jpg",
+      "alt": "Circuito Gilles Villeneuve",
+      "category": "circuits"
+    },
+    {
+      "id": 10,
+      "name": "Autódromo Interlagos",
+      "price": 40.00,
+      "image": "./img/cuadros/interlagos.webp",
+      "alt": "Autódromo Interlagos",
+      "category": "circuits"
+    },
+    {
+      "id": 11,
+      "name": "Circuito de Nurburgring",
+      "price": 40.00,
+      "image": "./img/cuadros/nurburgring.webp",
+      "alt": "Circuito de Nurburgring",
+      "category": "circuits"
+    },
+    {
+      "id": 12,
+      "name": "Circuito de Spa Francorchamps",
+      "price": 40.00,
+      "image": "./img/cuadros/spa-francorchamps.webp",
+      "alt": "Circuito de Spa Francorchamps",
+      "category": "circuits"
+    }
+  ]
+}
