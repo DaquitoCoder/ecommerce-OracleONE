@@ -89,7 +89,7 @@
   opacity: 1;
 }
 
-.card__actions a {
+.card__actions a, .card__actions button {
   background-color: var(--red);
   color: var(--white);
   border: none;

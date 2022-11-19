@@ -28,8 +28,8 @@ export const newProductEditDelete = (id, name, price, image, alt) => {
         alt="${alt}"
       />
       <div class="card__actions">
-      <a href="./editProduct.html?id=${id}"><i class="fa-solid fa-pen-to-square"></i></a>
-      <a href="./deleteProduct.html?id=${id}"><i class="fa-solid fa-trash"></i></i></a>
+        <a href="./editProduct.html?id=${id}"><i class="fa-solid fa-pen-to-square"></i></a>
+        <button id="btn-delete" cardID=${id}><i class="fa-solid fa-trash"></i></i></button>
       </div>
     </div>
     <div class="card__title">${name}</div>

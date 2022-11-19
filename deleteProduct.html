@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>F1Souvenirs | Menú de Administración</title>
+    <title>F1Souvenirs | Editar Producto</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -36,16 +36,10 @@
         />
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
-    </header>
-    <section class="categories">
-      <div class="category">
-        <div class="category__title">
-          <h2 class="category__title__text">Productos</h2>
-          <a href="./addProduct.html">Crear nuevo <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-        <div class="category__products" data-products></div>
+      <div class="header__login">
+        <a href="/login.html" class="header__btn__login">Login</a>
       </div>
-    </section>
+    </header>
     <section class="info">
       <div class="info__logo">
         <span class="info__logo__span">F1</span>Souvenirs
@@ -63,7 +57,12 @@
       <div class="info__form">
         <div class="info__form__title">Hable con nosotros</div>
         <form>
-          <input type="text" name="name" id="name" placeholder="Nombre" /><br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nombre"
+          /><br />
           <input
             type="email"
             name="emailClient"
@@ -91,5 +90,5 @@
       &copy; 2022 - Oracle ONE
     </footer>
   </body>
-  <script type="module" src="./js/adminMenu.js"></script>
+  <script src="./js/deleteProduct.js"></script>
 </html>

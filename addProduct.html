@@ -41,7 +41,20 @@
           <a href="/adminMenu.html" class="header__btn__login">Administración</a>
         </div>
       </header>
-      <section class="addForm" data-form-product>
+      <section class="editForm" data-form-product>
+        <form action="" class="editForm__form">
+          <h2 class="editForm__form__title">Añadir Producto</h2>
+          <input type="text" id="name" placeholder="Nombre del producto"/>
+          <input type="text" id="price" placeholder="Precio"/>
+          <input type="text" id="urlImage" placeholder="URL de la imagen"/>
+          <input type="text" id="altImage" placeholder="Texto alternativo de la imagen"/>
+          <select name="category" id="category">
+            <option value="caps">Gorras</option>
+            <option value="cars">Monoplaza 1/18</option>
+            <option value="circuits">Circuitos</option>
+          </select>
+          <button class="editForm__form__btn" id="btn-newProduct">Editar</button>
+        </form>
       </section>
       <section class="info">
         <div class="info__logo">
@@ -94,5 +107,5 @@
       </footer>
     </div>
   </body>
-  <script src="./js/editProduct.js"></script>
+  <script src="./js/addProduct.js"></script>
 </html>

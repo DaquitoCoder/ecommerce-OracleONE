@@ -5,7 +5,7 @@
 
 @import url('./login/login.css');
 
-@import url('./admin/adminMenu.css');
+@import url('./admin/editProduct.css');
 
 :root {
   --red: #e10600;
