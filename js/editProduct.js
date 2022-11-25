@@ -2,7 +2,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get('id');
 
-const productList = () => fetch(`http://localhost:3000/products/${id}`).then(res => res.json())
+const productList = () => fetch(`https://server-f1souvenirs.herokuapp.com/products/${id}`).then(res => res.json())
 
 const productsObj = {
   productList
@@ -71,7 +71,7 @@ const render = async () => {
       category
     }
 
-    fetch(`http://localhost:3000/products/${id}`, {
+    fetch(`https://server-f1souvenirs.herokuapp.com/products/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'

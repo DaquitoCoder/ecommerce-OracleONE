@@ -16,13 +16,13 @@ btn.addEventListener('click', (e) => {
     category
   }
 
-  fetch(`http://localhost:3000/products/`, {
+  fetch(`https://server-f1souvenirs.herokuapp.com/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(product)
     })
-    .then(alert('Producto creado con éxito')).then(window.location.replace("http://127.0.0.1:5500/adminMenu.html"))
+    .then(alert('Producto creado con éxito')).then(window.location.replace("https://daquitocoder.github.io/ecommerce-OracleONE/adminMenu.html"))
     .catch(err => console.log(err))
 });
