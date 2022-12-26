@@ -16,7 +16,7 @@ btn.addEventListener('click', (e) => {
     category
   }
 
-  fetch(`https://server-f1souvenirs.herokuapp.com/`, {
+  fetch(`https://server-f1souvenirs.onrender.com/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

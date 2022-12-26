@@ -2,7 +2,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get('id');
 
-const productList = () => fetch(`https://server-f1souvenirs.herokuapp.com/products/${id}`).then(res => res.json())
+const productList = () => fetch(`https://server-f1souvenirs.onrender.com/products/${id}`).then(res => res.json())
 
 const productsObj = {
   productList
@@ -47,7 +47,7 @@ const newForm = (name, price, image, alt, category) => {
 
 const render = async () => {
   try {
-    const products = await productsObj.productList();
+    const products = await productsObj?.productList();
     const {name, price, image, alt, category} = products;
         document.querySelector('[data-form-product]').appendChild(newForm(name, price, image, alt, category));
   } catch (error) {
@@ -71,7 +71,7 @@ const render = async () => {
       category
     }
 
-    fetch(`https://server-f1souvenirs.herokuapp.com/products/${id}`, {
+    fetch(`https://server-f1souvenirs.onrender.com/products/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
